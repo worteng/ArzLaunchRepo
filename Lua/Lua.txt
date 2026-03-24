@@ -1,0 +1,9 @@
+[script]
+name        = From ArzLaunchRepo
+author      = halfik
+description = описание
+usage       = да
+file        = ИмяФайла.lua
+url         = https://raw.githubusercontent.com/.../Lua/ИмяФайла.lua
+icon        = 🌙
+tag         = HUD

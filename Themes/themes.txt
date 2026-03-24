@@ -1,0 +1,8 @@
+[theme]
+name        = Название темы
+author      = Автор
+description = Краткое описание
+file        = НазваниеТемы.json
+url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/Themes/test.json
+icon        = 🎨
+preview     = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/Themes/previews/test.png

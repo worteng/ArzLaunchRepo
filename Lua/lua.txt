@@ -1,9 +1,9 @@
 [script]
-name        = From ArzLaunchRepo
+name        = Удаление надписи в ЦГ
 author      = halfik
-description = описание
-usage       = да
-file        = ИмяФайла.lua
-url         = https://raw.githubusercontent.com/.../Lua/ИмяФайла.lua
+description = Убирает назойливую надпись "Вы вошли в центр гетто" и "Вы покинули центр гетто".
+usage       = Автоматически
+file        = delCG.lua
+url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/delCG.lua
 icon        = 🌙
-tag         = HUD
+tag         = Gametext

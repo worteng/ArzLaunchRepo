@@ -7,3 +7,4 @@ file        = delCG.lua
 url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/delCG.lua
 icon        = 🌙
 tag         = Gametext
+image       = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Images/delCG.png

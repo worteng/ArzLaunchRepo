@@ -8,3 +8,68 @@ url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads
 icon        = 🌙
 tag         = Gametext
 image       = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Images/delCG.png
+
+[script]
+name        = ФиксСтарогоHUD
+author      = БеzликиЙ
+description = Скрипт фиксит отображение денег на старом худе, а также на старом лаунчерном худе, после обновы со снятием лимита денег. 
+На клиенте лимит денег всё ещё остался, поэтому суммы выше 2 ккк отображаются как отрицательные значения, но я постарался сделать это читабельным: так, 3.020.000.000 реальных денег будут отображаться как -3.020.000 (на аризоне суммы меньше тысячи вирт в любом случае не играют вообще никакой роли). Просто помните: сумма с минусом - значит, к концу можно приписать ещё три нуля. Скрипт работает через прослушку CEF денег, т.е. не сбивает диалоги, как это делает, например, старая сытость. Зависимости: arizona-events
+usage       = Автоматическое
+file        = oldhudmoney.lua
+url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/oldhudmoney.lua
+icon        = 
+tag         = fix
+image       = 
+
+[script]
+name        = RestoreDialog
+author      = quesada
+description = Данный скрипт переключает их обратно на стандартные самповские
+Из минусов: не будут работать диалоги пополнения балансов, так как там теперь есть отдельные инпуты для ввода общей суммы. Если будет желание как-то интегрировать фикс - этот скрипт хорошая основа.
+usage       = Автоматическое
+file        = RestoreDialog.lua
+url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/RestoreDialog.lua
+icon        = 
+tag         = fix
+image       = 
+
+[script]
+name        = NewMoneySeparator v3
+author      = манул бахус
+description = Скрипт фиксит новый формат денег на Arizona RP.
+Для первого запуска нужно будет перезайти в игру, полностью.
+arizona-events не требуется!!!​
+usage       = Автоматическое
+file        = NewMoneySeparator_v3.lua
+url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/NewMoneySeparator_v3.lua
+icon        = 
+tag         = fix
+image       = 
+
+[script]
+name        = Lua Manager
+author      = imchaosvoid
+description = 
+usage       = /sm​
+file        = scriptmanager fix.lua
+url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/scriptmanager fix.lua
+icon        = 🌿
+tag         = Manager
+image       = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Images/Manager.png
+
+[script]
+name        = InventoryAddon
+author      = Willy4ka
+description = Скрипт позволяет изменять размер предметов в инвентаре и количество колонок
+Так же в лавке на центральном рынке добавляет затемнение на предметы, которые нельзя продать игроку.
+Скрипт так же сохраняет позицию инвентаря при перезаходе в игру
+Для этого откройте инвентарь, переместите его как хотите и нажмите в скрипте кнопку сохранения позиции не закрывая инвентарь
+Примечание: меню лавки игрока сохраняется отдельно, вам так же нужно его переместить и сохранить
+Зависимости: mimgui, carbJsonConfig
+usage       =  /invaddon
+file        = InventoryAddon.lua
+url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/InventoryAddon.lua
+icon        = 
+tag         = Inventory
+image       = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Images/1759232921463.png
+

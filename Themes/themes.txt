@@ -1,8 +1,17 @@
 [theme]
-name        = Название темы
-author      = Автор
-description = Краткое описание
-file        = НазваниеТемы.json
-url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/Themes/test.json
-icon        = 🎨
-preview     = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/Themes/previews/test.png
+name        = РќР°Р·РІР°РЅРёРµ С‚РµРјС‹
+author      = РђРІС‚РѕСЂ
+description = РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ
+file        = test.json
+url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/main/Themes/test.json
+icon        = рџЋЁ
+preview     = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/main/Themes/previews/test.png
+
+[theme]
+name        = Red Raycast
+author      = Raycast
+description = РљСЂР°СЃРЅР°СЏ С‚РµРјР° РІ СЃС‚РёР»Рµ Raycast
+file        = RedRaycast.json
+url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/main/Themes/RedRaycast.json
+icon        = рџЋЁ
+preview     = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/main/Themes/previews/red_distortion_2.png
